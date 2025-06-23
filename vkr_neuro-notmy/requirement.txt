@@ -1,0 +1,8 @@
+python-multipart
+fastapi==0.88.0
+uvicorn==0.21.1
+https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp39-cp39-linux_x86_64.whl #sha256=...
+https://download.pytorch.org/whl/cpu/torchvision-0.15.2%2Bcpu-cp39-cp39-linux_x86_64.whl #sha256=...
+Pillow>=8.3.1
+numpy<2
+efficientnet-pytorch==0.7.1

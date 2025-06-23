@@ -1,0 +1,10 @@
+python-multipart
+fastapi>=0.68.0,<0.70.0
+uvicorn>=0.15.0
+https://download.pytorch.org/whl/cpu/torch-1.10.0%2Bcpu-cp39-cp39-linux_x86_64.whl#sha256=021adc1d77776220ac21dfa9fc7de08b71ff3ac9072fbec42f0f2bfe621685e1
+https://download.pytorch.org/whl/cpu/torchvision-0.11.0%2Bcpu-cp39-cp39-linux_x86_64.whl#sha256=4cf40f8f593f5664eb055130d1c327662857ce0546fd9aa04ae55ff99fcecbc9
+Pillow>=8.3.1
+numpy<2
+facenet-pytorch 
+opencv-python-headless
+tensorflow>=2.9.0

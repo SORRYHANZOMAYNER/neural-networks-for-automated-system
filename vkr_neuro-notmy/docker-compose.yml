@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  emotion-pretrained:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: emotion-pretrained-api
+    ports:
+      - "7600:7600"
+    environment:
+      - MODEL_NAME=PretrainedModels
+    restart: unless-stopped
